@@ -111,10 +111,6 @@ if (!empty($_POST)) {
             }
         }
 
-
-       
-//"<script type='text/javascript'>alert('Заказ'); window.location.href = 'zakazstola.html';</script>";
-
         if ( !empty($status) ) {
 
             echo '<script type="text/javascript">alert("You can\'t upload!\\r\\n'.$status.'"); window.history.back(); </script>';
